@@ -1,12 +1,12 @@
 import React from "react";
-function  abc(props){
+function  abc(){
     return(
         <>
 <nav>
     <div className="logo">Logo Hear</div>
     <div className="main-nav">
         <ul>
-            <li><a href="">{props.title}</a></li>
+            <li><a href="">Home</a></li>
             <li><a href="">about</a></li>
             <li><a href="">services</a></li>
             <li><a href="">contect</a></li>
