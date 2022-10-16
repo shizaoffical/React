@@ -1,0 +1,7 @@
+.card-img{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    /* background-image: url('../images/abc.jpg'); */
+    background-size: cover;
+}
