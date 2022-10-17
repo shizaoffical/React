@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let Student = [
+            {id:'1' , name:'Iqra' ,  class: '2nd year'},
+            {id:'2' , name:'Arfa' ,  class: '2nd year'},
+            {id:'3' , name:'Shiza' ,  class: '2nd year'},
+            {id:'4' , name:'Sidra Batool' ,  class: '2nd year'}
+        ];
+        // console.log(arr.length)
+//         console.log(name[0]);
+//         console.log(name[1]);
+//         console.log(name[2]);
+//         console.log(name[3]);
+
+
+        const newarr = Student.map( (cvalue)=>{
+return ` ${cvalue.id}  
+ ${cvalue.name} 
+ ${cvalue.class}`;
+        } )
+      console.log(newarr)
+    </script>
+</body>
+</html>
